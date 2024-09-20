@@ -42,5 +42,12 @@ cv.imshow("blured 7 100",blured2)
 cv.imshow("blured 5 10",blured3)
 cv.imshow("blured 7 10",blured4)
 
-cv.waitKey(0) # Wait for a keystroke in the window
+cv.waitKey(0)
+cv.destroyAllWindows()
+
+cvblured=cv.GaussianBlur(img,(5,5),100)
+cv.imshow("blured 5 100",blured1)
+cv.imshow("opencv blur",cvblured)
+
+cv.waitKey(0)
 cv.destroyAllWindows()
