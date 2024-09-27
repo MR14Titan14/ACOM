@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 
 
-def kanny(path,kernelSize,sigma):
+def kanny(path,kernelSize,sigma,lowScale,highScale):
     img = cv.imread(path, cv.IMREAD_GRAYSCALE)
     cv.imshow("grayscale", img)
     gaus = cv.GaussianBlur(img, (kernelSize, kernelSize), sigma)
@@ -17,9 +17,9 @@ def kanny(path,kernelSize,sigma):
                     gaus[x + 1][y] - gaus[x - 1][y])
             Gy = gaus[x + 1][y + 1] - gaus[x - 1][y - 1] + gaus[x - 1][y + 1] - gaus[x + 1][y - 1] + 2 * (
                     gaus[x][y + 1] - gaus[x][y - 1])
-            length[x][y] = np.sqrt(Gx * Gx + Gy * Gy)
+            length[x][y] = np.sqrt(Gx**2+Gy**2)
             tg = np.arctan(Gy / Gx)
-            # print(Gx,Gy,tg)
+            #print(Gx,Gy,length[x][y])
             if 0 < Gx and Gy < 0 and tg < -2.414 or Gx < 0 and Gy < 0 and tg > 2.414:
                 angle[x][y] = 0
             elif Gx > 0 and Gy < 0 and tg < -0.414:
@@ -73,8 +73,8 @@ def kanny(path,kernelSize,sigma):
     # cv.waitKey(0)
     # cv.destroyAllWindows()
 
-    lowLevel=maxLength//1.0250
-    highLevel=maxLength//1.0200
+    lowLevel=maxLength//lowScale
+    highLevel=maxLength//highScale
 
     for x in range(1, (len(gaus) - 1)):
         for y in range(1, len(gaus[0]) - 1):
@@ -93,4 +93,8 @@ def kanny(path,kernelSize,sigma):
     cv.waitKey(0)
     cv.destroyAllWindows()
 
-kanny("oi.png",5,100)
+kanny("oi.png",5,100,1.0250,1.0200)
+# kanny("oi.png",11,100,1.0250,1.0200)
+# kanny("oi.png",11,100,2,1.0200)
+
+
