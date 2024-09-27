@@ -2,10 +2,10 @@ import cv2 as cv
 import numpy as np
 
 
-def kanny(path):
+def kanny(path,kernelSize,sigma):
     img = cv.imread(path, cv.IMREAD_GRAYSCALE)
     cv.imshow("grayscale", img)
-    gaus = cv.GaussianBlur(img, (5, 5), 100)
+    gaus = cv.GaussianBlur(img, (kernelSize, kernelSize), sigma)
     cv.imshow("gaussian", gaus)
     cv.waitKey(0)
     cv.destroyAllWindows()
@@ -67,10 +67,30 @@ def kanny(path):
             if (angle[x][y] == 7):
                 iy = -1
                 ix = -1
-            border=length[x][y]>=length[x+ix][y+iy] and length[x][y]>=length[x-ix][y-iy]
-            borders[x][y]=0 if border else 255
+            border=length[x][y]>length[x+ix][y+iy] and length[x][y]>length[x-ix][y-iy]
+            borders[x][y]=255 if border else 0
     cv.imshow("borders",borders)
+    # cv.waitKey(0)
+    # cv.destroyAllWindows()
+
+    lowLevel=maxLength//1.0250
+    highLevel=maxLength//1.0200
+
+    for x in range(1, (len(gaus) - 1)):
+        for y in range(1, len(gaus[0]) - 1):
+            if(borders[x][y]==255):
+                if(length[x][y]<lowLevel):
+                    borders[x][y]=0
+    for x in range(1, (len(gaus) - 1)):
+        for y in range(1, len(gaus[0]) - 1):
+            if(borders[x][y]==255):
+                if(length[x][y]<=highLevel):
+                    if(borders[x-1][y-1]==255 or borders[x-1][y]==255 or borders[x-1][y+1]==255 or borders[x][y+1]==255 or borders[x+1][y+1]==255 or borders[x+1][y]==255 or borders[x+1][y-1]==255 or borders[x][y-1]==255):
+                        borders[x][y] = 255
+                    else:
+                        borders[x][y] = 0
+    cv.imshow("borders filtered", borders)
     cv.waitKey(0)
     cv.destroyAllWindows()
 
-kanny("oi.png")
+kanny("oi.png",5,100)
