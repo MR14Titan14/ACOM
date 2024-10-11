@@ -1,6 +1,31 @@
-import keras
-from keras._tf_keras.keras.datasets import mnist
-from keras._tf_keras.keras.layers import Dense
-from keras._tf_keras.keras.utils import to_categorical
-from keras._tf_keras.keras.optimizers import Adam
-from keras._tf_keras.keras.callbacks import TensorBoard
+import cv2
+import numpy as np
+from keras._tf_keras.keras.models import load_model
+
+# Персептрон
+# model = load_model('percep.keras')
+#
+# img = cv2.imread('4.png', cv2.IMREAD_GRAYSCALE)
+#
+# img = img / 255.0
+#
+# img = img.reshape(1, 784)
+#
+# predictions = model.predict(img)
+# predicted_digit = np.argmax(predictions)
+#
+# print(f"Цифра: {predicted_digit}")
+
+# Сверточная
+model = load_model('cnn.keras')
+
+img = cv2.imread('8.png', cv2.IMREAD_GRAYSCALE)
+
+img = img / 255.0
+
+img = img.reshape(1, 28, 28, 1)
+
+predictions = model.predict(img)
+predicted_digit = np.argmax(predictions)
+
+print(f"Цифра: {predicted_digit}")

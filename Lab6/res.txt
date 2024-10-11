@@ -1,0 +1,8 @@
+cnn_adam_10ep_2cl - 98.80
+cnn_sgd_10ep_2cl - 89.89
+cnn_adam_20ep_2cl - 99.22
+cnn_sgd_20ep_2cl - 92.82
+cnn_adam_10ep_3cl - 98.65
+cnn_sgd_10ep_3cl - 77.66
+cnn_adam_20ep_3cl - 98.73
+cnn_sgd_20ep_3cl - 90.75
