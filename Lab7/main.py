@@ -73,6 +73,7 @@ def test_recognition(rec_type, val_type, ds_dir):
             img = cv2.medianBlur(img, 3)
             text = tes.image_to_string(img, lang="rus+eng")
             res[name[:-4]] = str(text).replace("\n", "")
+
     if rec_type == "augmented_recognition":
         for name in images:
             responses = []
@@ -117,9 +118,18 @@ def test_recognition(rec_type, val_type, ds_dir):
             img = cv2.imread(f"{ds_dir}/{name}", cv2.COLOR_BGR2GRAY)
             img = cv2.medianBlur(img, 3)
             text = tes.image_to_string(img, lang="rus+eng")
-            reg=re.compile('[^a-zA-Z ]')
+            reg=re.compile('[^a-zA-Zа-яА-Я ]')
             text = str(text).replace("\n", "")
             res[name[:-4]] = reg.sub('',text.lower())
+
+    if rec_type == "easyOCR":
+        reader = easyocr.Reader(['en','ru'],gpu=True)
+        for name in images:
+            result=reader.readtext(f"{ds_dir}/{name}",detail=0,paragraph=True)
+            reg = re.compile('[^a-zA-Zа-яА-Я ]')
+            text = str(result[0]).replace("\n", "")
+            res[name[:-4]] = reg.sub('', text)
+
 
     if val_type == "accuracy":
         count = 0
@@ -140,4 +150,5 @@ def test_recognition(rec_type, val_type, ds_dir):
 # create_agds_txt()
 # test_recognition("straight_recognition","wer","ds2")
 # test_recognition("augmented_recognition","wer","ds1")
-test_recognition("with_post_recognition","wer","ds2")
+# test_recognition("with_post_recognition","wer","ds2")
+test_recognition("easyOCR","wer","ds2")
