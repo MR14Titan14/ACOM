@@ -1,0 +1,452 @@
+accuracy: 0.0
+    : земляного родилась
+    : земляного родилась
+    : земляного родилась
+   : земляного родилась
+     : земляного родилась
+   : земляного родилась
+      : земляного родилась
+   : земляного родилась
+    : земляного родилась
+  : земляного родилась
+   : земляного родилась
+   : земляного родилась
+     : земляного родилась
+    : земляного родилась
+    : земляного родилась
+     : земляного родилась
+   : земляного родилась
+    : земляного родилась
+        : земляного родилась
+       : земляного родилась
+       : земляного родилась
+ q : земляного родилась
+                   : земляного родилась
+             : земляного родилась
+        : земляного родилась
+        : земляного родилась
+      : земляного родилась
+       : земляного родилась
+        : земляного родилась
+    : земляного родилась
+   : земляного родилась
+     : земляного родилась
+         : земляного родилась
+              : земляного родилась
+              : земляного родилась
+  : земляного родилась
+   : земляного родилась
+   : земляного родилась
+     : земляного родилась
+    : земляного родилась
+    : земляного родилась
+       : дружбу cloudless
+      : дружбу cloudless
+      : дружбу cloudless
+     : дружбу cloudless
+     : дружбу cloudless
+     : дружбу cloudless
+     : дружбу cloudless
+      : дружбу cloudless
+        : дружбу cloudless
+      : дружбу cloudless
+      : дружбу cloudless
+    : дружбу cloudless
+     : дружбу cloudless
+     : дружбу cloudless
+      : дружбу cloudless
+      : дружбу cloudless
+     : дружбу cloudless
+     : дружбу cloudless
+   : дружбу cloudless
+      : дружбу cloudless
+              qV : дружбу cloudless
+             qk : дружбу cloudless
+           qV : дружбу cloudless
+           qV : дружбу cloudless
+           q : дружбу cloudless
+          : дружбу cloudless
+           : дружбу cloudless
+      : дружбу cloudless
+        : дружбу cloudless
+       : дружбу cloudless
+      : дружбу cloudless
+    : дружбу cloudless
+      : дружбу cloudless
+     : дружбу cloudless
+     : дружбу cloudless
+   : дружбу cloudless
+  : дружбу cloudless
+    : дружбу cloudless
+   : дружбу cloudless
+   : дружбу cloudless
+   : дружбу cloudless
+qqqqqqq   : застыло безопасно
+qqqqqqq   : застыло безопасно
+qqqqqqq    : застыло безопасно
+qqqqqqqq  : застыло безопасно
+qqqqqqqq     : застыло безопасно
+qqqqqqqq   : застыло безопасно
+qqqqqqqq     : застыло безопасно
+qqqqqqqq  : застыло безопасно
+qqqqqqq   : застыло безопасно
+qqqqqqqq  : застыло безопасно
+qqqqqqqq  : застыло безопасно
+qqqqqqqq   : застыло безопасно
+qqqqqqqq   : застыло безопасно
+qqqqqqqq    : застыло безопасно
+qqqqqqqq  : застыло безопасно
+qqqqqqqq  : застыло безопасно
+qqqqqqqq      : застыло безопасно
+qqqqqqqq    : застыло безопасно
+qqqqqqqq       : застыло безопасно
+qqqqqqqq   : застыло безопасно
+qqqqqqqq    : застыло безопасно
+qqqqqqqq      : застыло безопасно
+qqqqqqqq     : застыло безопасно
+qqqqqqqq qq : застыло безопасно
+qqqqqqqq        : застыло безопасно
+q     : застыло безопасно
+qqqqqqq    : застыло безопасно
+qqqqq     : застыло безопасно
+qqqqqqqq  : застыло безопасно
+qqqqqqqq  : застыло безопасно
+  qqqqqqq : застыло безопасно
+  qqqqqqq : застыло безопасно
+ qqqqqqq : застыло безопасно
+   qqqqqqq : застыло безопасно
+ qqqqqqq : застыло безопасно
+   qqqqqq : застыло безопасно
+ qqqqqqqq : застыло безопасно
+  qqqqqqqq : застыло безопасно
+   qqqqqqqq : застыло безопасно
+    qqqqqqqq : застыло безопасно
+    qqqqqqqq : застыло безопасно
+qqqqqqqqq qqqqqqq : величии лишил
+qqqqqqqq qqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqqq qqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+qqq qqqqqqqq : величии лишил
+qqqq qqqqqqqq : величии лишил
+qqqqqq qqqqqqqq : величии лишил
+qqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+Vqqqqqq qqqqqqqq : величии лишил
+qqqqqqqq qqqqqqqq : величии лишил
+qqqq  qqqqqqqq : величии лишил
+qqqqq  qqqqqqq q : величии лишил
+qqq q  qqqqqqqq : величии лишил
+qqqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqq qqqqqqq  : величии лишил
+qqqqqqqq qqqqqq  : величии лишил
+qqqqqqqqq qqqqqqq  q : величии лишил
+qqqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqqq : величии лишил
+qqqqqqq qq qqqqqqqqq : величии лишил
+qqqqqqqq q qqqqqqqqq : величии лишил
+qqqqqqqq qqqqqqqqqq : величии лишил
+qqqqqqqq qqqqqqqqqq : величии лишил
+qqqqqq qqqqqqqqq : величии лишил
+qqqqqqq qqqqqqqq : величии лишил
+qqqqqqqq qqqqqqqqq : величии лишил
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+   : croaked растаял
+    : croaked растаял
+   : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+qV  : croaked растаял
+  : croaked растаял
+q  : croaked растаял
+q  : croaked растаял
+ q : croaked растаял
+ q : croaked растаял
+  q : croaked растаял
+  : croaked растаял
+   : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+     : Вот он ваш знак
+   : Вот он ваш знак
+   : Вот он ваш знак
+   : Вот он ваш знак
+   : Вот он ваш знак
+    : Вот он ваш знак
+   : Вот он ваш знак
+   : Вот он ваш знак
+    : Вот он ваш знак
+   : Вот он ваш знак
+   : Вот он ваш знак
+    : Вот он ваш знак
+     : Вот он ваш знак
+    : Вот он ваш знак
+    : Вот он ваш знак
+  : Вот он ваш знак
+  : Вот он ваш знак
+   : Вот он ваш знак
+   : Вот он ваш знак
+   : Вот он ваш знак
+    : Вот он ваш знак
+   : Вот он ваш знак
+    : Вот он ваш знак
+     : Вот он ваш знак
+   : Вот он ваш знак
+     : Вот он ваш знак
+       : Вот он ваш знак
+    : Вот он ваш знак
+     : Вот он ваш знак
+    : Вот он ваш знак
+     : Вот он ваш знак
+     : Вот он ваш знак
+     : Вот он ваш знак
+     : Вот он ваш знак
+   : Вот он ваш знак
+     : Вот он ваш знак
+    : Вот он ваш знак
+    : Вот он ваш знак
+     : Вот он ваш знак
+     : Вот он ваш знак
+       : Вот он ваш знак
+qqqqqqqqq qqqqqqq : величии лишил
+qqqqqqqq qqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqqq qqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+qqq qqqqqqqq : величии лишил
+qqqq qqqqqqqq : величии лишил
+qqqqqq qqqqqqqq : величии лишил
+qqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+Vqqqqqq qqqqqqqq : величии лишил
+qqqqqqqq qqqqqqqq : величии лишил
+qqqq  qqqqqqqq : величии лишил
+qqqqq  qqqqqqq q : величии лишил
+qqq q  qqqqqqqq : величии лишил
+qqqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqq qqqqqqq  : величии лишил
+qqqqqqqq qqqqqq  : величии лишил
+qqqqqqqqq qqqqqqq  q : величии лишил
+qqqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqq : величии лишил
+qqqqqqqqq qqqqqqqqq : величии лишил
+qqqqqqq qq qqqqqqqqq : величии лишил
+qqqqqqqq q qqqqqqqqq : величии лишил
+qqqqqqqq qqqqqqqqqq : величии лишил
+qqqqqqqq qqqqqqqqqq : величии лишил
+qqqqqq qqqqqqqqq : величии лишил
+qqqqqqq qqqqqqqq : величии лишил
+qqqqqqqq qqqqqqqqq : величии лишил
+  : серьги корону
+  : серьги корону
+     : серьги корону
+      : серьги корону
+       : серьги корону
+  : серьги корону
+  : серьги корону
+   : серьги корону
+  : серьги корону
+  : серьги корону
+  : серьги корону
+  : серьги корону
+  : серьги корону
+  : серьги корону
+  : серьги корону
+  : серьги корону
+  : серьги корону
+  : серьги корону
+  : серьги корону
+    : серьги корону
+    : серьги корону
+  : серьги корону
+   : серьги корону
+   : серьги корону
+V   : серьги корону
+V  : серьги корону
+    : серьги корону
+   : серьги корону
+V   : серьги корону
+    : серьги корону
+  : серьги корону
+  : серьги корону
+  : серьги корону
+  : серьги корону
+  : серьги корону
+  : серьги корону
+  : серьги корону
+  : серьги корону
+  : серьги корону
+  : серьги корону
+  : серьги корону
+   : гидов лавки
+    : гидов лавки
+    : гидов лавки
+    : гидов лавки
+    : гидов лавки
+   : гидов лавки
+    : гидов лавки
+  : гидов лавки
+  : гидов лавки
+  : гидов лавки
+  : гидов лавки
+     : гидов лавки
+    : гидов лавки
+   : гидов лавки
+    : гидов лавки
+  : гидов лавки
+    : гидов лавки
+  : гидов лавки
+   : гидов лавки
+    : гидов лавки
+    : гидов лавки
+  : гидов лавки
+   : гидов лавки
+   : гидов лавки
+    : гидов лавки
+  : гидов лавки
+  : гидов лавки
+  : гидов лавки
+    : гидов лавки
+    : гидов лавки
+    : гидов лавки
+    : гидов лавки
+    : гидов лавки
+     : гидов лавки
+   : гидов лавки
+   : гидов лавки
+   : гидов лавки
+   : гидов лавки
+    : гидов лавки
+   : гидов лавки
+   : гидов лавки
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+   : охотно нанял
+   : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+   : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : охотно нанял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+   : croaked растаял
+    : croaked растаял
+   : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+qV  : croaked растаял
+  : croaked растаял
+q  : croaked растаял
+q  : croaked растаял
+ q : croaked растаял
+ q : croaked растаял
+  q : croaked растаял
+  : croaked растаял
+   : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял
+  : croaked растаял

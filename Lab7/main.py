@@ -53,8 +53,8 @@ def create_agds_txt():
         strings = f.read().splitlines()
     with open(f'ds2_t.txt', 'w', encoding="utf-8") as f:
         for s in strings:
-            for angle in range(-20, 21):
-                f.write(f"{s.split(':')[0]}_{angle}:{s.split(':')[1]}\n")
+            for angle in range(17, 21):
+                f.write(f"{s.split(':')[0]}_{angle}.jpg,{s.split(':')[1]}\n")
 
 
 def test_recognition(rec_type, val_type, ds_dir):
@@ -130,6 +130,16 @@ def test_recognition(rec_type, val_type, ds_dir):
             text = str(result[0]).replace("\n", "")
             res[name[:-4]] = reg.sub('', text)
 
+    if rec_type == "customEasyOCR":
+        reader = easyocr.Reader(['ru'],gpu=True,model_storage_directory='customEasyOCR/model',
+                        user_network_directory='customEasyOCR/user_network',
+                        recog_network='custom')
+        for name in images:
+            result=reader.readtext(f"{ds_dir}/{name}",detail=0,paragraph=True)
+            reg = re.compile('[^a-zA-Zа-яА-Я ]')
+            text = str(result[0]).replace("\n", "")
+            res[name[:-4]] = reg.sub('', text)
+
 
     if val_type == "accuracy":
         count = 0
@@ -147,8 +157,9 @@ def test_recognition(rec_type, val_type, ds_dir):
         reswriter.write(f'{res[i]} : {labels[i]}\n')
 
 # augmentation_ds("ds1")
-# create_agds_txt()
+create_agds_txt()
 # test_recognition("straight_recognition","wer","ds2")
 # test_recognition("augmented_recognition","wer","ds1")
 # test_recognition("with_post_recognition","wer","ds2")
-test_recognition("easyOCR","wer","ds2")
+#test_recognition("easyOCR","wer","ds2")
+test_recognition("customEasyOCR","wer","ds1")
